@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan" >
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/kolajpencere" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton5"
+        android:layout_toRightOf="@+id/imageButton5"
+        android:src="@drawable/trash" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_toLeftOf="@+id/imageButton5"
+        android:src="@drawable/cicek" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton6"
+        android:layout_toRightOf="@+id/imageButton6"
+        android:src="@drawable/kaydet" />
+
+    <ImageButton
+        android:id="@+id/imagebutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/kolajikiii" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imagebutton1"
+        android:layout_toRightOf="@+id/imagebutton1"
+        android:src="@drawable/kolajikiii" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagebutton1"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/imageButton4"
+        android:src="@drawable/metiniki" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton6"
+        android:layout_toRightOf="@+id/imageButton6"
+        android:src="@drawable/boyamaa" />
+
+</RelativeLayout>

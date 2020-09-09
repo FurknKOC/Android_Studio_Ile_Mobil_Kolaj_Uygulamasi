@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobilproje"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@android:drawable/star_on"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".KolajBir"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KolajBir" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KolajIki"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KolajIki" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name=".KolajUc"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KolajUc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name=".KolajDort"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KolajDort" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name=".KolajBes"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KolajBes" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".KolajAlti"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KolajAlti" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".KolajYedi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KolajYedi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".KolajSekiz"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KolajSekiz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".KolajDokuz"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KolajDokuz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".KolajOn"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KolajOn" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
